@@ -7,7 +7,7 @@ const repository_1 = require("@loopback/repository");
 const config = {
     name: 'social',
     connector: 'mysql',
-    url: 'mysql://root@localhost/social',
+    url: 'mysql://root:12345678@mysql:3306/social',
     host: '',
     port: 0,
     user: '',
